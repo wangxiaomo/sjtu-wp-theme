@@ -13,10 +13,12 @@ print_footer_sidebar('footer-fourth', true);
 </div>
 <?php } ?>
 <div id="copyrights">
-<h5><?php 
-//copyright text - can be changed in Dandelion Options -> Translation -> Other
-echo pex_text('_footer_copyright_text');
-?></h5>
+	<div id="sjtu-badge">
+	<a href="xxx"></a>
+	</div>
+	<div id="sjtu-footer-info" class="center">
+	<p>地址 上海市闵行区东川路800号上海交通大学媒体与设计学院 邮编 200240</p>
+	</div>
 </div>
 <!-- FOOTER ENDS -->
 </div>
