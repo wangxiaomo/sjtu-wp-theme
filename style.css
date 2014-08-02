@@ -242,20 +242,24 @@ body {
 	width: 100%;
 	display: block;
 	height: 150px;
+	/*margin-bottom: 20px;*/
 }
 
 /*---------------------------- LOGO ----------------------------*/
 #logo-container {
-	width: 660px;
-	/*float: left;*/
-	margin-top: 15px;
-	margin-left: 40px;
+	display: inline-block;
+	width: 200px;
+	height: 150px;
+	float: bottom;
+	position: relative;
 }
 
 #logo-container a {
-	width: 980px;
-	height: 71px;
-	display: block;
+	bottom: 0px;
+	position: absolute;
+	width: 200px;
+	height: 80px;
+	display: inline-block;
 	background-image: url(images/logo.png);
 	background-repeat: no-repeat;
 }
@@ -264,11 +268,23 @@ body {
 
 /*-------------------------MENU---------------------------------*/
 #menu-container {
-	display: inline;
+	display: inline-block;
 	float: right;
-	margin-top: 45px;
+	height: 150px;
 	/*margin-right: 25px;*/
-	/*max-width: 700px;*/
+	max-width: 700px;
+}
+
+#menu-container .top {
+	float: right;
+	clear: left;
+	padding-top: 30px;
+	margin-bottom: 30px;
+}
+
+#menu-container .bottom {
+	float: right;
+	padding-top: 30px;
 }
 
 #menu ul {
@@ -2554,9 +2570,9 @@ padding: 4px;
 
 /*-------------- VERSION 2.4 --------------*/
 
-#logo-container {
+/*#logo-container {
     margin-bottom: -15px;
-}
+}*/
 
 .portfolio-showcase-item{
 	display:none;	

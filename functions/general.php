@@ -191,7 +191,8 @@ if(!function_exists('pexeto_register_menus')){
 	function pexeto_register_menus() {
 		register_nav_menus(
 		array(
-				'pexeto_main_menu' => __( 'Main Menu' )
+				'main_menu' => __( 'Main Menu' ),
+				'top_menu' => __( 'Top Menu' )
 		)
 		);
 	}
