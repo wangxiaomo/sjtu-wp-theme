@@ -1,5 +1,4 @@
   <div id="footer-container">
-  <img src="http://ww4.sinaimg.cn/mw690/6e57586btw1e93a9ftn88j205k00u0sj.jpg">
   <?php if(get_opt('_widgetized_footer')!='off'){?>
     <div id="footer">
       <div id="footer-columns">
