@@ -23,7 +23,6 @@ print_footer_sidebar('footer-fourth', true);
 <!-- FOOTER ENDS -->
 </div>
 </div>
-</div>
 <?php wp_footer(); 
 echo(get_opt('_analytics')); ?>
 </body>

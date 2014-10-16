@@ -2,6 +2,7 @@
 /**
  * Default page template.
  */
+
 get_header();
 
 if ( have_posts() ) {

@@ -442,7 +442,7 @@ if ( !function_exists( 'create_meta_box' ) ) {
 	function create_meta_box() {
 		global $theme_name;
 		if ( function_exists( 'add_meta_box' ) ) {
-			add_meta_box( 'new-meta-boxes', '<div class="icon-small"></div> DANDELION PAGE SETTINGS', 'new_meta_boxes', 'page', 'normal', 'high' );
+			add_meta_box( 'new-meta-boxes', '<div class="icon-small"></div>PAGE SETTINGS', 'new_meta_boxes', 'page', 'normal', 'high' );
 		}
 	}
 }
@@ -455,7 +455,7 @@ if ( !function_exists( 'create_meta_post_box' ) ) {
 	function create_meta_post_box() {
 		global $theme_name;
 		if ( function_exists( 'add_meta_box' ) ) {
-			add_meta_box( 'new-meta-post-boxes', '<div class="icon-small"></div> DANDELION PORTFOLIO ITEM SETTINGS', 'new_meta_post_boxes', 'portfolio', 'normal', 'high' );
+			add_meta_box( 'new-meta-post-boxes', '<div class="icon-small"></div>PORTFOLIO ITEM SETTINGS', 'new_meta_post_boxes', 'portfolio', 'normal', 'high' );
 		}
 	}
 }

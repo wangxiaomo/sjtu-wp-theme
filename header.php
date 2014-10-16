@@ -71,18 +71,22 @@ jQuery(document).ready(function($){
 <?php $bodyclass=$enable_cufon=='on'?'class="cufon"':'';?>
 <body <?php echo $bodyclass; ?>>
 	<div id="main-container">
-		<div class="center">
-			<div id="site">
-				<div id="header" >
-					<div id="header-top">
-						<div id="logo-container" class="center"><a href="<?php echo home_url(); ?>"></a></div>
-						<!-- <div id="logo-container" class="center"><h1>全球XXXXXXX机构</h1></div> -->
-						<div id="menu-container">
-							<div id="menu" class="top">
-							<?php wp_nav_menu( array( 'theme_location' => 'top_menu' ) ); ?>
-							</div>
-							<div id="menu" class="bottom">
-							<?php wp_nav_menu( array( 'theme_location' => 'main_menu' ) ); ?>
-							</div>
+		<div id="site">
+			<div id="header" >
+				<div id="header-top">
+					<div id="logo-container" class="center"><a href="<?php echo home_url(); ?>"></a></div>
+					<div id="menu-container">
+						<div id="menu" class="top">
+							<?php get_search_form(); ?>
+							<span>|</span>
+							<span>机构介绍</span>
+							<span>|</span>
+							<span>联系我们</span>
+							<span>|</span>
+							<!--<?php wp_nav_menu( array( 'theme_location' => 'top_menu' ) ); ?>-->
+						</div>
+						<div id="menu" class="bottom">
+						<?php wp_nav_menu( array( 'theme_location' => 'main_menu' ) ); ?>
 						</div>
 					</div>
+				</div>

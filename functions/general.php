@@ -132,7 +132,7 @@ add_action( 'pre_get_posts', 'pexeto_set_blog_post_settings' );
 if(!function_exists('pexeto_set_image_sizes')){
 	function pexeto_set_image_sizes(){
 		add_theme_support( 'post-thumbnails' );
-		set_post_thumbnail_size( 200, 200 );
+		set_post_thumbnail_size( 200, 150 , false);
 		add_image_size('post_box_img', 580, 250, true);
 		add_image_size('static-header-img', 980, 370, true);
 	}

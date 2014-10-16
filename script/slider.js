@@ -23,12 +23,9 @@
 		options=$.extend(defaults, options);
 		var api, timer=-1, images=[], current, root, thumbContainer, containerNum=0, inAnimation=false, descBox, descBottom=0,windowFocus=true;
 		
-		
-		
 		root=$(this);
 		thumbContainer=$('#'+options.thumbContainerId);
 		current=root.find('img:first').toggleClass('current').show();
-		
 		
 		/**
 		 * Inits the slider.
