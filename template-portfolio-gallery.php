@@ -39,7 +39,7 @@ if ( have_posts() ) {
 }
 ?>
 
-  <div id="content-container" class="content-gradient">
+<div id="content-container" class="content-gradient">
 <div id="full-width">
 <div id="gallery">
 

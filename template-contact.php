@@ -1,6 +1,6 @@
 <?php
 /*
- Template Name: Contact form page
+ Template Name: Contact
  */
 
 get_header();
@@ -48,11 +48,6 @@ if ( have_posts() ) {
 
 ?>
 </div>
-<?php
-if ( $layout!='full' ) {
-	print_sidebar( $sidebar );
-}
-?>
 <div class="clear"></div>
   </div>
 <?php

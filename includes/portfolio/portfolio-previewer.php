@@ -69,7 +69,7 @@ if ( have_posts() ) {
 			$term_string.=( $term->name );
 			$first=false;
 		}
-		$html.='<h6>'.get_the_title().'</h6><span>'.$term_string.'</span></div>';
+		$html.='<h6>'.get_the_title().'</h6></div>';
 
 		$html.= '</div>';
 		echo $html;

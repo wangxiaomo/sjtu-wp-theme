@@ -79,9 +79,9 @@ jQuery(document).ready(function($){
 						<div id="menu" class="top">
 							<?php get_search_form(); ?>
 							<span>|</span>
-							<span>机构介绍</span>
+							<a href="http://ec2-54-86-64-24.compute-1.amazonaws.com/?page_id=42"><span>机构介绍</span></a>
 							<span>|</span>
-							<span>联系我们</span>
+							<a href="http://ec2-54-86-64-24.compute-1.amazonaws.com/?page_id=44"><span>联系我们</span></a>
 							<span>|</span>
 							<!--<?php wp_nav_menu( array( 'theme_location' => 'top_menu' ) ); ?>-->
 						</div>
