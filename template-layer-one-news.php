@@ -28,7 +28,7 @@ get_header();
 						<?php the_post_thumbnail( ); ?>
 					</div>
 					<div class="box-post-brief">
-						<h4><?php the_title(); ?></h4>
+						<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 						<hr align="left" />
 						<?php $more = 0; ?>
 						<p><?php the_content('[继续阅读]'); ?></p>
