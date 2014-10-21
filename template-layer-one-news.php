@@ -3,6 +3,8 @@
  Template Name: News
  */
 
+include "pagination.php";
+
 get_header();
 
 ?>
@@ -16,11 +18,11 @@ get_header();
 			<div class="homepage-column left-column">
 				<div class="box-title-bar">
 					<h3><a href="weibo.com">新闻动态</a></h3>
-					<a class="alignbottom alignright" href="">更多</a>
 				</div>
 				<?php
 					global $more;
-					query_posts( array ('category_name' => 'news') );
+					$paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
+					query_posts( array ('category_name' => 'news', 'posts_per_page' => ENTRY_COUNT_PER_PAGE, 'paged' => $paged) );
 					while (have_posts()) : the_post();
 				?>
 				<div class="box-post-entry">
@@ -36,6 +38,7 @@ get_header();
 				</div>
 				<?php
 					endwhile;
+					get_pagination();
 					wp_reset_query();
 				?>
 			</div>
@@ -69,13 +72,7 @@ get_header();
 					</div>
 				</div>
 			</div>
-
-
 		</div>
-
-
-
-
 	</div>
 	</div> <!-- end content-->
 

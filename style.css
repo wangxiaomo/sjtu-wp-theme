@@ -3070,3 +3070,14 @@ font-size:13px;
 #content .three-columns-3 {
   width: 170px;
 }
+
+/*------------- PAGINATION -----------------*/
+.pagination .prev {
+  float: left;
+  width: 50%;
+}
+.pagination .next {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
