@@ -27,12 +27,13 @@ if ( have_posts() ) {
 
 
     <!-- it works the same with all jquery version from 1.x to 2.x -->
-    <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/script/jquery-1.9.1.min.js"></script>
+    <!-- <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/script/jquery-1.9.1.min.js"></script> -->
     <!-- use jssor.slider.mini.js (40KB) or jssor.sliderc.mini.js (32KB, with caption, no slideshow) or jssor.sliders.mini.js (28KB, no caption, no slideshow) instead for release -->
     <!-- jssor.slider.mini.js = jssor.sliderc.mini.js = jssor.sliders.mini.js = (jssor.core.js + jssor.utils.js + jssor.slider.js) -->
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/script/jssor.core.js"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/script/jssor.utils.js"></script>
     <script type="text/javascript" src="<?php echo get_stylesheet_directory_uri(); ?>/script/jssor.slider.js"></script>
+
     <script>
 
         jQuery(document).ready(function ($) {
