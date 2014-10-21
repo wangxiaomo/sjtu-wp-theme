@@ -1,5 +1,5 @@
 <?php
-define('ENTRY_COUNT_PER_PAGE', 3);
+define('ENTRY_COUNT_PER_PAGE', 6);
 
 function get_pagination(){
 ?>
