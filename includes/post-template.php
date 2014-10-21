@@ -64,3 +64,4 @@ if(!$excerpt){
 	the_excerpt();
 }?> 
 </div>
+<div class="back-home"><a href="javascript:history.go(-1);">返回上页</a></div>

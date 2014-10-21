@@ -1077,6 +1077,10 @@ img.attachment-post_box_img {
  margin-top:0px;
 }
 
+.back-home {
+  text-align: right;
+}
+
 /*-----------HOMEPAGE--------------------------*/
 .box-post-entry {
 	height: 133px;
