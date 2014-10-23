@@ -72,7 +72,7 @@ jQuery(document).ready(function($){
 <body <?php echo $bodyclass; ?>>
 	<div id="main-container">
 		<div id="site">
-			<div id="header" >
+			<div id="header">
 				<div id="header-top">
 					<div id="logo-container" class="center"><a href="<?php echo home_url(); ?>"></a></div>
 					<div id="menu-container">
@@ -83,10 +83,10 @@ jQuery(document).ready(function($){
 							<span>|</span>
 							<a href="http://ec2-54-86-64-24.compute-1.amazonaws.com/?page_id=44"><span>联系我们</span></a>
 							<span>|</span>
-							<!--<?php wp_nav_menu( array( 'theme_location' => 'top_menu' ) ); ?>-->
 						</div>
 						<div id="menu" class="bottom">
 						<?php wp_nav_menu( array( 'theme_location' => 'main_menu' ) ); ?>
 						</div>
 					</div>
 				</div>
+			</div> <!-- header -->

@@ -32,21 +32,33 @@ if ( have_posts() ) {
 
 <div id="content-container" class="content-gradient <?php echo $layoutclass; ?> ">
 <div id="<?php echo $content_id; ?>">
+	<div id="full-width">
+		<div class="columns-wrapper">
+			<div class="homepage-column left-column">
+		<!--content-->
+	    <?php
+			if ( $show_title!='off' ) {?>
+	    	<h1 class="page-heading"><?php the_title(); ?></h1><hr/>
+	    <?php }
 
-	<!--content-->
-    <?php
-		if ( $show_title!='off' ) {?>
-    	<h1 class="page-heading"><?php the_title(); ?></h1><hr/>
-    <?php }
+			the_content();
 
-		the_content();
-
-		//include the contact form
-		locate_template( array( 'includes/form.php' ), true, true );
+			//include the contact form
+			locate_template( array( 'includes/form.php' ), true, true );
+		}
 	}
-}
 
-?>
+	?>
+			</div>
+			<div class="three-columns-3">
+			<h4>邮箱</h4><hr/>
+			<p>global@global.com</p>
+			<h4>电话</h4><hr/>
+			<p>021-8888888</p>
+			<h4>社交网络</h4><hr/>
+			</div>	
+		</div>	
+	</div>	
 </div>
 <div class="clear"></div>
   </div>

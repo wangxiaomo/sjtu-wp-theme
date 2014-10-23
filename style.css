@@ -264,7 +264,7 @@ body {
 	background-repeat: no-repeat;
 }
 
-/*---------------------------- END LOGO ----------------------------*/
+/*------------------------ END LOGO ----------------------------*/
 
 /*-------------------------MENU---------------------------------*/
 #menu-container {
@@ -718,7 +718,7 @@ a.sf-with-ul {
 .content-gradient {
 	background-image: url(images/content_bg.png);
 	background-repeat: repeat-x;
-	background-position: top;
+	background-position: bottom;
 }
 
 #content {
@@ -736,6 +736,8 @@ a.sf-with-ul {
 	margin: 40px;
 	width:900px;
 }
+
+/*----- sidebar -----*/
 
 .sidebar-to-left #content {
 	float: right;
@@ -1883,7 +1885,7 @@ a.button-small:hover span,a.button-small:hover span {
 
 
 /*------------- CONTACT PAGE --------------*/
-/*input {
+input {
 	width: 300px;
 	height: 24px;
 	border: 1px solid #ccc;
@@ -1895,7 +1897,7 @@ a.button-small:hover span,a.button-small:hover span {
 	-webkit-border-radius: 3px;
 	border-radius: 3px;
 }
-*/
+
 textarea {
 	width: 300px;
 	height: 150px;

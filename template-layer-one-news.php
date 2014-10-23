@@ -11,9 +11,7 @@ get_header();
 
 
 <div id="content-container" class="content-gradient">
-
 	<div id="full-width">
-
 		<div class="columns-wrapper">
 			<div class="homepage-column left-column">
 				<div class="box-title-bar">

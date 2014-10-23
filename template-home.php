@@ -238,7 +238,7 @@ if ( have_posts() ) {
 	<div id="full-width">
 
 		<div class="columns-wrapper">
-			<div class="homepage-column left-column">
+			<div class="left-column">
 				<div class="box-title-bar">
 					<h3><a href="weibo.com">新闻动态</a></h3>
 					<a class="alignbottom alignright" href="">更多</a>
@@ -258,7 +258,6 @@ if ( have_posts() ) {
 						<?php $more = 0; ?>
 						<p><?php the_content('[继续阅读]'); ?></p>
 					</div>
-					
 				</div>
 				<?php
 					endwhile;
@@ -315,7 +314,7 @@ if ( have_posts() ) {
 			</div>
 		<?php } ?>
 		</div>
-	</div>
+	</div> <!-- full width -->
 <div class="clear"></div>
-</div>
+</div> <!-- content container -->
 <?php get_footer(); ?>
