@@ -816,9 +816,9 @@ h1.page-heading{
 }
 
 .blog-post h1,.blog-post h1 a {
-	font-size: 22px;
+	font-size: 25px;
+	font-weight: bold;
 	margin-bottom: 11px;
-	font-style: normal;
 }
 
 .post-info {
@@ -863,6 +863,7 @@ a.read-more {
 }
 
 .post-info ul li.post-info-comments {
+  display: none;
 	border-right: 0px;
 	float: right;
 	padding-right: 0px;
