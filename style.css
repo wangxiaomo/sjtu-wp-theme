@@ -210,6 +210,7 @@ body {
 	left: 0px;
 	top: 0px;
 	width: 100%;
+	background-color: #fff;
 }
 
 #site {
@@ -1706,15 +1707,15 @@ img.attachment-post_box_img {
 }
 
 #copyrights-wrapper {
-  float: left;
-  width: 100%;
-  background-color: #2d3796;
+	float: left;
+	width: 100%;
+	background-color: #2d3796;
 }
 
 #copyrights {
-  width: 980px;
+	width: 980px;
 	height: 200px;
-  margin: auto;
+	margin: auto;
 }
 
 #copyrights #sjtu-badge {
@@ -1726,14 +1727,14 @@ img.attachment-post_box_img {
 	display: block;
 	width: 233px;
 	height: 80px;
-  margin: 15px;
+	margin: 15px;
 	background-image: url(images/sjtu_logo.png);
 	background-repeat: no-repeat;
 }
 
 .dotted-footer-hr {
-  width: 100%;
-  border-top: 1px dashed #fff;
+	width: 100%;
+	border-top: 1px dashed #fff;
 }
 
 #copyrights #sjtu-footer-info {
@@ -1742,12 +1743,12 @@ img.attachment-post_box_img {
 
 #sjtu-footer-info p {
 	color: #FFFFFF;
-  float: left;
-  text-align: left;
+	float: left;
+	text-align: left;
 }
 
 #stju-copyrights {
-  padding-left: 50px;
+	padding-left: 50px;
 }
 
 /*-------------------------SIDEBAR----------------------------*/
