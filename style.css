@@ -3241,8 +3241,7 @@ font-size:13px;
 
 .selfie_text {
 	padding-top: 5px;
-	padding-left: 40px;
-	text-align: left;
+	text-align: center;
 }
 
 .selfie_text .name {
@@ -3252,5 +3251,6 @@ font-size:13px;
 }
 
 .selfie_text .intro {
-	line-height: 0.5;
+	margin: 10px 10px;
+	line-height: 1;
 }
