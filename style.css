@@ -720,7 +720,6 @@ a.sf-with-ul {
 }
 
 .content-gradient {
-	background-image: url(images/content_bg.png);
 	background-repeat: repeat-x;
 	background-position: bottom;
 }
@@ -738,7 +737,15 @@ a.sf-with-ul {
 	height: auto;
 	min-height: 200px;
 	margin: 40px;
-	width:900px;
+	width:940px;
+	padding-left: 40px;
+	border-left: orange;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right: orange;
+	border-right-style: solid;
+	border-right-width: 1px;
+	
 }
 
 /*----- sidebar -----*/
