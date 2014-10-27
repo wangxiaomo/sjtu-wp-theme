@@ -3191,3 +3191,53 @@ font-size:13px;
 	background-color: #2d3796;
 	color: #fff !important;
 }
+
+/*-----------------------------------------*/
+
+
+.about_us_row {
+	height: 280px;
+	background-color: #EEEEEE;
+	padding-top: 20px;
+	margin-bottom: 20px;
+}
+
+.about_us_block {
+	display: inline-block;
+	float: left;
+	height: 280px;
+	width: 225px;
+	margin: 0px;
+	padding: 0px;
+}
+
+.block_description {
+	padding-right: 20px;
+}
+
+.selfie {
+	width: 160px;
+	height: 200px;
+	margin: auto;
+}
+
+.selfie img {
+	height: 200px;
+	width: 100%;
+}
+
+.selfie_text {
+	padding-top: 5px;
+	padding-left: 40px;
+	text-align: left;
+}
+
+.selfie_text .name {
+	color: #747;
+	font-weight: bold;
+	font-size: 14px;
+}
+
+.selfie_text .intro {
+	line-height: 0.5;
+}
