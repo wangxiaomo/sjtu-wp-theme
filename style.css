@@ -279,7 +279,7 @@ body {
 	float: right;
 	clear: left;
 	padding-top: 30px;
-	margin-bottom: 40px;
+	margin-bottom: 25px;
 }
 
 #menu-container .top span{
@@ -301,12 +301,16 @@ body {
 }
 
 #menu ul li a {
-	padding-right: 15px;
-	padding-left: 15px;
-	line-height: 0.2em;
-	height: 10px;
+	display: inline-block;
+	padding: 10px 15px;
+	color: #000;
 	font-style: normal;
 	letter-spacing: 1px;
+}
+
+#menu ul li a:hover {
+	color: #fff;
+	background-color: #2d3796;
 }
 
 .top a {
@@ -352,7 +356,6 @@ body {
 #menu ul ul {
 	width: 170px;
 	top: 15px;
-	left: 5px;
 	padding-top: 12px;
 	text-align: left;
 	display: none;
@@ -368,24 +371,20 @@ body {
 
 #menu ul ul li a {
 	font-size: 11px;
-	padding-right: 10px;
 	height: auto;
 	text-align: left;
 	line-height: 30px;
 	padding-left: 10px;
+	padding-right: 10px;
+	margin-top: -2px;
+	background-color: #575faa;
 	display: block;
+	color: #fff;
+	opacity: 0.9;
 }
 
-#menu ul ul li:hover {
-	background-color: #f1f1f1;
-}
-
-#menu ul ul li {
-	display: block;
-	border-bottom: 1px solid #ebebeb;
-	border-left: 1px solid #ebebeb;
-	border-right: 1px solid #ebebeb;
-	background-color: #fff;
+#menu ul ul li a:hover {
+	background-color: #2d3796;
 }
 
 #menu ul ul ul {
@@ -3185,4 +3184,10 @@ font-size:13px;
   float: right;
   width: 50%;
   text-align: right;
+}
+
+/*-------------- HACK ----------------------*/
+.submenu-hover {
+	background-color: #2d3796;
+	color: #fff !important;
 }

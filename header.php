@@ -90,3 +90,16 @@ jQuery(document).ready(function($){
 					</div>
 				</div>
 			</div> <!-- header -->
+<script>
+jQuery(function(){
+	var $ = jQuery;
+	$('.sub-menu').on({
+		mouseenter: function(){
+			$(this).prev().addClass('submenu-hover');
+		},
+		mouseleave: function(){
+			$(this).prev().removeClass('submenu-hover');
+		}
+	});
+});
+</script>
