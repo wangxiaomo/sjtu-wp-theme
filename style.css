@@ -3254,3 +3254,18 @@ font-size:13px;
 	margin: 10px 10px;
 	line-height: 1;
 }
+
+.intro-title {
+	font-weight: bold;
+	font-size: 30px;
+	padding: 20px 0px 10px;
+	text-align: center;
+}
+
+.global-intro {
+	margin-bottom: 50px;
+}
+
+.global-intro p {
+	text-indent: 2em;
+}
