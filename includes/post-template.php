@@ -19,7 +19,7 @@ global $excerpt;
 <div class="post-info">
 <ul>
 	<li><span class="no-caps"> <?php echo(pex_text('_at_text')); ?></span> <a><?php echo get_the_date('F d, Y'); ?></a></li>
-	<li><span class="no-caps"> <?php echo(pex_text('_by_text')); ?></span> <?php the_author_posts_link(); ?>
+	<!-- <li><span class="no-caps"> <?php echo(pex_text('_by_text')); ?></span> <?php the_author_posts_link(); ?> -->
 	</li>
 	<?php 
 	//print the category

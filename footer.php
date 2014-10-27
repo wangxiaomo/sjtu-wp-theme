@@ -12,12 +12,16 @@ print_footer_sidebar('footer-fourth', true);
 </div>
 </div>
 <?php } ?>
-<div id="copyrights">
-	<div id="sjtu-badge">
-	<a href="xxx"></a>
-	</div>
-	<div id="sjtu-footer-info" class="center">
-	<p>地址 上海市闵行区东川路800号上海交通大学媒体与设计学院 邮编 200240</p>
+<div id="copyrights-wrapper">
+	<div id="copyrights">
+		<div id="sjtu-badge">
+			<a href="xxx"></a>
+		</div>
+        <hr class="dotted-footer-hr">
+		<div id="sjtu-footer-info" class="center">
+			<p id="sjtu-address">地址 上海市闵行区东川路800号上海交通大学媒体与设计学院 邮编 200240</p>
+            <p id="stju-copyrights">&copy; 2014 SMD of SJTU.All rights reserved.</p>
+		</div>
 	</div>
 </div>
 <!-- FOOTER ENDS -->
