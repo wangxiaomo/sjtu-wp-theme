@@ -25,9 +25,6 @@ if ( have_posts() ) {
 		if ( $sidebar=='' ) {
 			$sidebar='default';
 		}
-
-		//include the page header template
-		locate_template( array( 'includes/page-header.php' ), true, true );
 ?>
 
 <div id="content-container" class="content-gradient <?php echo $layoutclass; ?> ">
