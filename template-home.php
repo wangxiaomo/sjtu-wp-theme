@@ -19,7 +19,7 @@ if ( have_posts() ) {
 		}
 
 		//include the page header template
-		locate_template( array( 'includes/page-header.php' ), true, true );
+		//locate_template( array( 'includes/page-header.php' ), true, true );
 	}
 } ?>
 
