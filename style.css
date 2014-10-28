@@ -211,6 +211,7 @@ body {
 	top: 0px;
 	width: 100%;
 	background-color: #fff;
+	background: url(/wp-content/themes/dandelion/images/website-background.jpg) no-repeat fixed;
 }
 
 #site {
@@ -218,7 +219,6 @@ body {
 	width: auto;
 	text-align: left;
 	padding: 0px;
-	background-color: #fff;
 }
 
 #line-top {
