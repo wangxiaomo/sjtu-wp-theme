@@ -59,7 +59,7 @@ get_header();
         <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/jinzhang_jiang.png">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -80,7 +80,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/xun_lin.png">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -100,7 +100,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/benqian_li.png">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -120,7 +120,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/yizhong_li.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -140,7 +140,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/shilin_liu.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -160,7 +160,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/shilian_shn.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -180,7 +180,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/shilian_shan.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -200,7 +200,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/ran_wei.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -220,7 +220,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/ke_xue.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -260,7 +260,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/xinbao_yao.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -280,7 +280,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Untitled3.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Unt.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">

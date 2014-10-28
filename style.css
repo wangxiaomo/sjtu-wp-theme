@@ -3232,10 +3232,11 @@ font-size:13px;
 	width: 160px;
 	height: 200px;
 	margin: auto;
+	overflow: hidden;
 }
 
 .selfie img {
-	height: 200px;
+	height: 100%;
 	width: 100%;
 }
 
