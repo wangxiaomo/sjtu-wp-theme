@@ -5,9 +5,11 @@ if ( $slider!='none' && $slider!='' ) {
 	locate_template( array( 'includes/'.$slider.'.php' ), true, true );
 }else {?>
 
+<!--
 <div id="page-title">
 	<h6><?php echo $subtitle; ?></h6>
 </div>
+-->
 
 <?php }
 
