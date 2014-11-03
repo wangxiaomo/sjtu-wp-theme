@@ -740,10 +740,17 @@ a.sf-with-ul {
 	height: auto;
 	min-height: 200px;
 	margin-top: -2px;
-	width:940px;
+	width:900px;
+	padding-top: 20px;
 	padding-left: 40px;
+	padding-bottom: 40px;
+	padding-right: 40px;
 	background: #fff;
 	box-shadow: 0px 10px 10px black;
+}
+
+#content-title {
+	margin-bottom: 20px;
 }
 
 /*----- sidebar -----*/
@@ -1030,8 +1037,7 @@ img.attachment-post_box_img {
 	height: 24px;
 	padding-bottom: 3px;
 	position: relative;
-	border-style: solid;
-	border-bottom: thin dotted #888888;
+
 }
 
 .box-title-bar h3 {
@@ -1122,6 +1128,7 @@ img.attachment-post_box_img {
 	margin-bottom: 15px;
 	width:580px;
 	min-height:200px;
+	height: 386px;
 	background-image: url(images/ajax-loader-small.gif);
 	background-repeat: no-repeat;
 	background-position: center; 
@@ -1132,8 +1139,8 @@ img.attachment-post_box_img {
 	float: left;
 	height: auto;
 	min-height: 200px;
-	width: 590px;
-	margin: 40px 10px 40px 40px;
+	width: 586px;
+	margin-right: 40px;	
 }
 
 #portfolio-preview h4 {
@@ -1142,7 +1149,7 @@ img.attachment-post_box_img {
 
 #portfolio-preview h1,#portfolio-preview h1 a {
 	font-size: 22px;
-	margin-bottom: 8px;
+	margin-bottom: 7px;
 	font-style: normal;
 	margin-top: 0px;
 }
@@ -1153,15 +1160,15 @@ img.attachment-post_box_img {
 
 .portfolio-items {
 	float: left;
-	width: 300px;
+	width: 273px;
 	padding-left: 1px;
 }
 
 .showcase-item {
 	float: left;
 	display: block;
-	width: 297px;
-	margin-bottom: 8px;
+	width: 273px;
+	margin-bottom: 6px;
 	background-color: #efefec;
 	border: 1px solid #e6e6e6;
 }
@@ -1172,11 +1179,10 @@ img.attachment-post_box_img {
 
 .showcase-item h6 {
 	float: left;
-	width: 210px;
+	width: 180px;
 	margin-top: 7px;
 	text-transform: capitalize;
 	font-size: 13px;
-	font-style: normal;
 }
 
 .showcase-item span {
@@ -1198,11 +1204,9 @@ img.attachment-post_box_img {
 	height: auto;
 	min-height: 200px;
 	float: right;
-	width: 300px;
-	margin-top: 40px;
-	font-size: 15px;
+	width: 273px;
+	font-size: 16px;
 	overflow: hidden;
-	margin-right: 40px;
 }
 
 .portfolio-sidebar h4 {
@@ -1221,11 +1225,8 @@ img.attachment-post_box_img {
 }
 
 #portfolio-big-pagination {
-	margin-top: 1px;
-	margin-left: 1px;
-	margin-bottom:30px;
 	display: block;
-	width: 299px;
+	width: 273px;
 	height: 30px;
 	float: left;
 	border-bottom: 1px solid #ebebeb;
@@ -3244,14 +3245,16 @@ font-size:13px;
 }
 
 .selfie_text .name {
+	padding-top: 15px;
 	color: #747;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .selfie_text .intro {
 	margin: 10px 10px;
 	line-height: 1;
+	display: none;
 }
 
 .intro-title {
@@ -3261,10 +3264,15 @@ font-size:13px;
 	text-align: center;
 }
 
-.global-intro {
+.intro-content {
 	margin-bottom: 50px;
 }
 
-.global-intro p {
+.intro-content p {
+	font-size: 14px;
 	text-indent: 2em;
+}
+
+.intro-list p {
+	line-height: 0;
 }

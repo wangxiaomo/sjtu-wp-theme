@@ -12,8 +12,10 @@ get_header();
 
 	<div id="full-width">
 
-  <h2>研究队伍</h2>
-
+  <h2 id="content-title">
+    >> 研究队伍 | <font color="grey">TEAM</font>
+    <div class="hr"></div>
+  </h2>
         <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">

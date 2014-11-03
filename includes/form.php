@@ -33,17 +33,17 @@ jQuery(function(){
 
 <form action="" method="post" id="submit_form">
     <div class="contact_form_input">
-        <h6><?php echo pex_text('_name_text');?><span class="mandatory">*</span></h6>
+        <h6>名字 | <font color="grey">Name</font></h6>
         <input type="text" name="name_text_box" class="input form_input" id="name_text_box" tabindex="1"/>
     </div>
 
     <div class="contact_form_input">
-        <h6><?php echo pex_text('_your_email_text');?> <span class="mandatory">*</span> </h6>
+        <h6>邮箱 | <font color="grey">Email</font></h6>
         <input type="text" name="email_text_box" class="input form_input" id="email_text_box" tabindex="2"/>
     </div>
 
     <div class="contact_form_textarea">
-        <h6><?php echo pex_text('_question_text');?><span class="mandatory">*</span></h6>
+        <h6>问题 | <font color="grey">Question</font></h6>
         <textarea name="question_text_area" rows="" cols="" class="textArea input form_input"
         id="question_text_area" tabindex="3"></textarea>
     </div>
@@ -59,7 +59,7 @@ jQuery(function(){
         </div>
     <?php } ?>
     <br/>
-    <a class="button" id="send_button"><span><?php echo pex_text('_send_text');?></span></a>
+    <a class="button" id="send_button"><span>发送 | <font color="grey">Send</font></span></a>
     <div id="contact_status" >
         <div class="check hidden"></div>
         <!-- leave for displaying sending message status -->
