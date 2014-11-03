@@ -414,303 +414,118 @@ a.sf-with-ul {
 }
 
 /*---------------------------SLIDER----------------------------*/
-	
-#slider-container,#page-title {
-	height: auto;
+
+#slider-container {
 	position: relative;
-	background-color: #AAA;
-}
-
-#page-title {
-	color: #747474;
-	background-color: #efefec;
-	border-bottom: 1px solid #e6e6e6;
-	border-top: 1px solid #e6e6e6;
-	height: 3px;
-}
-
-#page-title h6 {
-	margin-top: 7px;
-	margin-bottom: 7px;
-	display: block;
-	font-size: 13px;
-	font-style: italic;
-	padding-left: 40px;
-}
-
-#static-header-img img{
-	margin-top:-6px;
-	margin-bottom:-6px;
-	width:980px;
-}
-
-#slider-container-shadow {
-	width: 100%;
-	height: 6px;
-	background-image: url(images/shadow_sl.png);
-	background-repeat: repeat-x;
-	background-position: top;
-	position: relative;
-	z-index: 2000;
-	background-color: #2d3796;
-}
-
-#slider {
-	width: 980px;
-	height: 370px;
-	position: relative;
-}
-
-#description-box {
-	position: absolute;
-	width: 960px;
-	background-color: #000;
-	z-index: 20;
-	bottom: -100px;
-	padding-left: 10px;
-	padding-right: 10px;
-	opacity: 0.8;
-	filter: alpha(opacity =80);
-}
-
-#description-box p {
-	color: #fff;
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-/*---------------- ACCORDION SLIDER -----------------*/
-
-#slider .accordion-holder img {
-	width: 700px;
-	display: block;
-}
-
-.accordion-holder {
-	position: absolute;
 	top: 0px;
 	left: 0px;
-	z-index: 3;
-	width: 700px;
-	height: 370px;
-	visibility: hidden;
+	width: 980px;
+	height: 500px;
+	overflow: hidden;
+	box-shadow: 0px 3px 10px #888;
 }
 
-.accordion-shadow {
-	height: 380px;
-	width: 20px;
+#slides {
+	cursor: move;
 	position: absolute;
-	left: -20px;
-	background-image: url(images/accordion_shadow.png);
-	background-repeat: repeat-y;
-	top: -10px;
+	left: 0px;
+	top: 0px;
+	width: 980px;
+	height: 500px;
+	overflow: hidden;
 }
 
-
-.accordion-description {
-	width: 300px;
-	margin-top: 50px;
-	background-color: #000;
-	z-index: 200;
+#bullet {
 	position: absolute;
+	top: 480px;
 	right: 0px;
-	bottom: 0px;
-	padding: 10px;
-	padding-left: 15px;
-	color: #fff;
-	display:none;
 }
 
-.accordion-description h4,.accordion-description p {
-	margin-top: 0px;
-	margin-bottom: 0px;
-	color: #fff;
-}
-
-.accordion-description a {
-	font-family: Georgia, "Times New Roman", Times, serif;
-	font-style: italic;
-}
-
-/*------------ THUMBNAIL SLIDER -------------*/
-
-#slider-img-wrapper {
-	overflow: hidden;
-	position: relative;
-	width: 9999px;
-	height: 370px;
-}
-
-#slider img {
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	z-index: 3;
-	width: 980px;
-	height: 370px;
-	display:none;
-}
-
-#slider img.first {
-	display: block;
-}
-
-#slider img.current {
-	z-index: 10;
-}
-
-#slider-navigation-container {
-	width: 875px;;
-	height: 60px;
-	border-bottom: 1px solid #e6e6e6;
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 83px;
-	padding-right:22px;
-}
-
-#slider-navigation {
-	position: relative;
-	overflow: hidden;
-	width: 800px;
-	height: 60px;
+#arrowleft {
+	width: 30px;
+	height: 46px;
+	top: 240px;
 	left: 10px;
-	top: 0px;
-	
 }
 
-.slider_nav_tumb {
-	width: 90px;
-	height: 70px;
-	display: block;
-	background-image: url(images/slider_nav_bg.png);
-	background-repeat: no-repeat;
-	padding: 7px;
-	padding-top: 8px;
+#arrowright {
+	width: 30px;
+	height: 46px;
+	top: 240px;
+	right: 10px;
 }
 
-#slider-navigation .items {
-	width: 20000em;
-	position: absolute;
-	left: 0px;
+/* jssor slider bullet navigator skin 05 css */
+/*
+.jssorb05 div           (normal)
+.jssorb05 div:hover     (normal mouseover)
+.jssorb05 .av           (active)
+.jssorb05 .av:hover     (active mouseover)
+.jssorb05 .dn           (mousedown)
+*/
+.jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+    background: url(images/slider/b10.png) no-repeat;
+    overflow: hidden;
+    cursor: pointer;
 }
 
-#slider-navigation .items div {
-	float: left;
+.jssorb05 div {
+    background-position: -7px -7px;
 }
 
-#slider-navigation .items img {
-	width: 70px;
-	height: 50px;
-	background-color: #FFF;
-	border: 1px solid #d9d9d9;
-	background-repeat: no-repeat;
-	padding: 3px;
-	margin-right: 24px;
+.jssorb05 div:hover, .jssorb05 .av:hover {
+    background-position: -37px -7px;
 }
 
-#slider-navigation .items img.active {
-	background-color: #efefec;
-	border: 1px solid #d9d9d9;
-	position: relative;
+.jssorb05 .av {
+    background-position: -67px -7px;
 }
 
-.browse {
-	width: 41px;
-	height: 41px;
-	display: block;
-	position: absolute;
+.jssorb05 .dn, .jssorb05 .dn:hover {
+    background-position: -97px -7px;
 }
 
-#left-arrow {
-	left: -48px;
-	top: 10px;
-	float: left;
-	width: 38px;
-	height: 38px;
-	display: block;
-	background-image: url(images/slider_arrow_l.png);
-	background-repeat: no-repeat;
+/* jssor slider arrow navigator skin 12 css */
+/*
+.jssora12l              (normal)
+.jssora12r              (normal)
+.jssora12l:hover        (normal mouseover)
+.jssora12r:hover        (normal mouseover)
+.jssora12ldn            (mousedown)
+.jssora12rdn            (mousedown)
+*/
+.jssora12l, .jssora12r, .jssora12ldn, .jssora12rdn {
+    position: absolute;
+    cursor: pointer;
+    display: block;
+    background: url(images/slider/a18.png) no-repeat;
+    overflow: hidden;
 }
 
-#right-arrow {
-	right: 14px;
-	top: 10px;
-	width: 38px;
-	height: 38px;
-	display: block;
-	background-image: url(images/slider_arrow_r.png);
-	background-repeat: no-repeat;
+.jssora12l {
+    background-position: -16px -37px;
 }
 
-/*-------------------------END THUMBNAIL SLIDER----------------------------*/
-/*-------------------------NIVO SLIDER----------------------------*/
-	
-#nivo-slider {
-	width: 980px;
-	height:370px;
-	margin-top: -6px;
-	background-image: url(images/ajax-loader.gif);
-	background-repeat: no-repeat;
-	background-position: center;
+.jssora12r {
+    background-position: -75px -37px;
 }
 
-#nivo-slider img {
-	width: 980px;
-	height: 370px;
-	display: none;
-	top: 0px;
-	left: 0px;
+.jssora12l:hover {
+    background-position: -136px -37px;
 }
 
-.nivo-controlNav {
-	position: absolute;
-	bottom: -34px;
+.jssora12r:hover {
+    background-position: -195px -37px;
 }
 
-#nivo-controlNav-holder {
-	background-color: #fff;
-	height: 50px;
-	border-bottom: 1px solid #ebebeb;
+.jssora12ldn {
+    background-position: -256px -37px;
 }
 
-.nivo-controlNav a {
-	width: 15px;
-	height: 15px;
-	background-image: url(images/page_nav.png);
-	background-repeat: no-repeat;
-	float: left;
-	list-style: none;
-	margin-left: 3px;
-	margin-right: 3px;
-	display: block;
+.jssora12rdn {
+    background-position: -315px -37px;
 }
 
-.nivo-controlNav a.active {
-	background-image: url(images/page_nav_active_black.png);
-}
-
-.nivo-nextNav {
-	display: block;
-	background-image: url(images/nivo_arrow_r.png);
-	background-repeat: no-repeat;
-	width: 20px;
-	height: 29px;
-	margin-right: 10px;
-}
-
-.nivo-prevNav {
-	display: block;
-	background-image: url(images/nivo_arrow_l.png);
-	background-repeat: no-repeat;
-	width: 20px;
-	height: 29px;
-	margin-left: 10px;
-}
-
-.nivo-caption p {
-	padding: 15px;
-}
 
 /*-------------------------CONTENT----------------------------*/
 
