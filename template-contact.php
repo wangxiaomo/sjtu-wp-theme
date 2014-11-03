@@ -10,13 +10,11 @@ get_header();
 <div id="content-container" class="content-gradient">
 
   <div id="full-width">
-
-
-  <h2 id="content-title">
-    >> 联系我们 | 
-    <font color="grey">CONTACT</font>
-    <div class="hr"></div>
-  </h2>
+    <h2 id="content-title">
+      >> 联系我们 | 
+      <font color="grey">CONTACT</font>
+      <div class="hr"></div>
+    </h2>
 
     <div class="columns-wrapper">
       <div class="homepage-column left-column">

@@ -16,6 +16,7 @@ get_header();
     >> 研究队伍 | <font color="grey">TEAM</font>
     <div class="hr"></div>
   </h2>
+  
         <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">

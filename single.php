@@ -18,11 +18,10 @@ if ( have_posts() ) {
 		$layout=get_opt( '_blog_layout' );
 		$sidebar=get_opt( '_blog_sidebar' );
 
-		//include the page header template
-		locate_template( array( 'includes/page-header.php' ), true, true );
 ?>
 
 		<div id="content-container" class="content-gradient <?php echo $layoutclass; ?> ">
+		<div id="full-width">
 		<div id="<?php echo $content_id; ?>">
 		<!--content-->
 	   	<?php
@@ -30,12 +29,14 @@ if ( have_posts() ) {
 		//include the post template
 		locate_template( array( 'includes/post-template.php' ), true, true );
 
+
 	}
 } ?>
 
 </div>
+</div>
 
-			<div class="three-columns-3">
+<!-- 			<div class="three-columns-3">
 				<div class="empty-box">
 				</div>
 				<div class="column-box">
@@ -66,7 +67,7 @@ if ( have_posts() ) {
 						<a class="alignbottom alignright">更多</a>
 					</div>
 				</div>
-			</div>
+			</div> -->
 
 
 <div class="clear"></div>
