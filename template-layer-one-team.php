@@ -280,6 +280,7 @@ get_header();
           <p>复旦大学新闻系毕业。原香港《文汇报》助理总编辑、上海办事处主任。研究方向：新闻理论与实务、媒体发展战略、公共关系。</p>
         </div>
       </div>
+      <!--
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
@@ -300,6 +301,7 @@ get_header();
           <p></p>
         </div>
       </div>
+      -->
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
