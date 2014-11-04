@@ -175,9 +175,9 @@ get_header();
             </div>
           </div>
           <div class="block_description">
-          <p></p>
+          <p>PhD Supervisor. PhD in mass communication, the University of Alabama. Focus on laws and regulations of communication, operation and management of media, international communication, Internet communication.</p>
           <hr color="red">
-          <p></p>
+          <p>美国阿拉巴马大学大众传播学博士。研究领域包括传播法规与政策、传媒经营与管理、国际传播、网络传播。致力于将中国问题放在国际化的背景下进行考察，为解决本土各种理论和实践问题提供可供借鉴、可以信赖的经验。同时，又试图以中国问题来检验国际上经典及新兴的社会科学理论，为国际学术界的发展做出独特贡献。代表性成果为英文专著Internet Law in China（中国互联网法），2012年由英国Chandos Publishing出版社出版。此外还在Communication Research、Internet Research、International Journal on Media Management、《国际新闻界》、《南京社会科学》等知名学术期刊发表中英文论文若干。目前的研究集中在互联网的法律规制。</p>
         </div>
       </div>
       <div class="about_us_row">
