@@ -12,6 +12,7 @@ include_once( ABSPATH . 'wp-admin/includes/class-wp-upgrader.php' );
 include_once( 'class-envato-protected-api.php' );
 
 if ( class_exists( 'Theme_Upgrader' ) && ! class_exists( 'Envato_WordPress_Theme_Upgrader' ) ) {
+    return;
 
     /**
      * Envato Wordpress Theme Upgrader class to extend the WordPress Theme_Upgrader class.
