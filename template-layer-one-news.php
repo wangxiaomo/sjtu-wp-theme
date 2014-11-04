@@ -13,7 +13,6 @@ get_header();
 <div id="content-container" class="content-gradient">
   <div id="full-width">
     <div class="columns-wrapper">
-      <div class="homepage-column left-column">
         <div class="box-title-bar">
           <h2 id="content-title">
             >> 新闻动态 | <font color="grey">NEWS</font>
@@ -37,42 +36,12 @@ get_header();
             <p><?php the_content('[继续阅读]'); ?></p>
           </div>
         </div>
+        <hr color="red">
         <?php
           endwhile;
           get_pagination();
           wp_reset_query();
         ?>
-      </div>
-      <div class="three-columns-3">
-        <div class="column-box">
-          <div class="box-title-bar">
-            <h3>成果展示</h3>
-            <a class="alignbottom alignright">更多</a>
-          </div>
-          <div class="box-content">
-          <?php
-            query_posts( array ('category_name' => 'achievement') );
-            while (have_posts()) : the_post();
-          ?>
-          <div class="box-achievement-entry">
-            <div class="box-achievement-thumbnail aligncenter">
-              <?php the_post_thumbnail( ); ?>
-            </div>
-            <h6><?php the_title(); ?></h6>
-          </div>
-          <?php
-            endwhile;
-            wp_reset_query();
-          ?>
-          </div>
-        </div>
-        <div class="column-box">
-          <div class="box-title-bar">
-            <h3><a href="">视频资料</a></h3>
-            <a class="alignbottom alignright">更多</a>
-          </div>
-        </div>
-      </div>
     </div>
   </div>
   </div> <!-- end content-->

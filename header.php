@@ -79,9 +79,9 @@ jQuery(document).ready(function($){
 						<div id="menu" class="top">
 							<?php get_search_form(); ?>
 							<span>|</span>
-							<a href="http://ec2-54-86-64-24.compute-1.amazonaws.com/?page_id=42"><span>机构介绍 | INTRO</span></a>
+							<a href="http://gcri.sjtu.edu.cn/index.php/intro"><span>机构介绍 | INTRO</span></a>
 							<span>|</span>
-							<a href="http://ec2-54-86-64-24.compute-1.amazonaws.com/?page_id=44"><span>联系我们 | CONTACT</span></a>
+							<a href="http://gcri.sjtu.edu.cn/index.php/contact"><span>联系我们 | CONTACT</span></a>
 							<span>|</span>
 						</div>
 						<div id="menu" class="bottom">

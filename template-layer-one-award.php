@@ -8,9 +8,14 @@ get_header();
 ?>
 
 <div id="content-container" class="content-gradient  ?> ">
-<div id="<?php echo $content_id; ?>">
+<div id="full-width">
 
-<h1>全球传播研究院研究人员获奖名单（2009-2013）</h1>
+  <h2 id="content-title">
+    >> 全球传播研究院研究人员获奖名单 | 
+    <font color="grey">AWARD</font>
+    <div class="hr"></div>
+  </h2>
+
 
 <div class="table-content" >
     <table >

@@ -41,7 +41,7 @@ $pexeto_main_color=$pexeto_css['custom_color']==''?$pexeto_css['skin']:$pexeto_c
  *---------------------------------------------------------------------*/
 
 if($pexeto_main_color!=''){
-	echo 'body{background-color:#'.$pexeto_main_color.';}';
+	// echo 'body{background-color:#'.$pexeto_main_color.';}';
 }
 
 if($pexeto_css['custom_pattern']!='' || ($pexeto_css['pattern']!='' && $pexeto_css['pattern']!='none')){

@@ -125,6 +125,9 @@ if ( have_posts() ) {
         <!-- Slides Container -->
         <div id="slides" u="slides">
             <div>
+                <img u="image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/03.jpg" />
+            </div>
+            <div>
                 <img u="image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/01.jpg" />
             </div>
             <div>
@@ -188,6 +191,7 @@ if ( have_posts() ) {
 						<h3><a href="">成果展示</a></h3>
 						<a class="alignbottom alignright">更多</a>
 					</div>
+                    <hr color="red">
 					<div class="box-content">
 					<?php
 						query_posts( array ('category_name' => 'achievement') );
@@ -210,6 +214,7 @@ if ( have_posts() ) {
 						<h3><a href="">视频资料</a></h3>
 						<a class="alignbottom alignright">更多</a>
 					</div>
+                    <hr color="red">
 				</div>
 			</div>
 		</div>
