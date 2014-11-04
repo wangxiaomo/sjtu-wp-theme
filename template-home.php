@@ -188,7 +188,7 @@ if ( have_posts() ) {
 			<div class="three-columns-3">
 				<div class="column-box">
 					<div class="box-title-bar">
-						<h3><a href="">成果展示 | ACHIEVEMENT</a></h3>
+						<h3><a href="">成果展示 | <font size="2">ACHIEVEMENT</font></a></h3>
 						<a class="alignbottom alignright">更多</a>
 					</div>
                     <hr color="red">
@@ -211,10 +211,26 @@ if ( have_posts() ) {
 				</div>
 				<div class="column-box">
 					<div class="box-title-bar">
-						<h3><a href="">视频资料 | ARCHIVE</a></h3>
+						<h3><a href="">视频资料 | <font size="2">ARCHIVE</font></a></h3>
 						<a class="alignbottom alignright">更多</a>
 					</div>
                     <hr color="red">
+                    <div class="box-content">
+                    <?php
+                        query_posts( array ('category_name' => 'video') );
+                        while (have_posts()) : the_post();
+                    ?>
+                    <div class="box-achievement-entry">
+                        <div class="box-achievement-thumbnail aligncenter">
+                            <?php the_post_thumbnail( ); ?>
+                        </div>
+                        <h6><?php the_title(); ?></h6>
+                    </div>
+                    <?php
+                        endwhile;
+                        wp_reset_query();
+                    ?>
+                    </div>
 				</div>
 			</div>
 		</div>
