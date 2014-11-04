@@ -9,6 +9,7 @@
 * Follow me: http://twitter.com/unispheredesign *
 * *
 **************************************************************/
+return; // disable theme update notification
 
 // Constants for the theme name, folder and remote XML url
 define( 'NOTIFIER_THEME_NAME', 'Dandelion' ); // The theme name
