@@ -27,7 +27,7 @@
 	echo bloginfo( 'name' );
 } ?>
 </title>
-
+<meta http-equiv="X-UA-Compatible" content="chrome=1" />
 <link rel="alternate" type="application/rss+xml" title="<?php bloginfo( 'name' ); ?> RSS" href="<?php bloginfo( 'rss2_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
 <?php if ( get_opt( '_favicon' ) ) { ?>
