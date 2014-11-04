@@ -188,7 +188,7 @@ if ( have_posts() ) {
 			<div class="three-columns-3">
 				<div class="column-box">
 					<div class="box-title-bar">
-						<h3><a href="">成果展示</a></h3>
+						<h3><a href="">成果展示 | ACHIEVEMENT</a></h3>
 						<a class="alignbottom alignright">更多</a>
 					</div>
                     <hr color="red">
@@ -211,7 +211,7 @@ if ( have_posts() ) {
 				</div>
 				<div class="column-box">
 					<div class="box-title-bar">
-						<h3><a href="">视频资料</a></h3>
+						<h3><a href="">视频资料 | ARCHIVE</a></h3>
 						<a class="alignbottom alignright">更多</a>
 					</div>
                     <hr color="red">
