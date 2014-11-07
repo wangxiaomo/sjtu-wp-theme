@@ -339,7 +339,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/shunya.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/shunya.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -357,7 +357,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/chenyu_kuo.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/chenyu_kuo.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
@@ -393,7 +393,7 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/kee.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/kee.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
