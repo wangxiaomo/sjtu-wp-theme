@@ -64,6 +64,7 @@ if(!function_exists('is_version_newer')){
 }
 
 
+/*
 if ( !function_exists( 'update_notifier_bar_menu' ) ) {
 	// Adds an update notification to the WordPress 3.1+ Admin Bar
 	function update_notifier_bar_menu() {
@@ -83,6 +84,7 @@ if ( !function_exists( 'update_notifier_bar_menu' ) ) {
 	}
 }
 add_action( 'admin_bar_menu', 'update_notifier_bar_menu', 1000 );
+*/
 
 
 if ( !function_exists( 'update_notifier' ) ) {

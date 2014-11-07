@@ -16,7 +16,7 @@ get_header();
     >> 研究队伍 | <font color="grey">TEAM</font>
     <div class="hr"></div>
   </h2>
-  
+
         <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
@@ -163,14 +163,14 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/shilian_shn.jpg">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/guosong_shao.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
                 <a>Guosong Shao | 邵国松</a>
               </div>
               <div class="intro">
-                
+
               </div>
             </div>
           </div>
@@ -280,28 +280,6 @@ get_header();
           <p>复旦大学新闻系毕业。原香港《文汇报》助理总编辑、上海办事处主任。研究方向：新闻理论与实务、媒体发展战略、公共关系。</p>
         </div>
       </div>
-      <!--
-      <div class="about_us_row">
-          <div class="about_us_block">
-            <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/Unt.jpg">
-            </div>
-            <div class="selfie_text">
-              <div class="name">
-                <a>Yi Zhao | 赵怡</a>
-              </div>
-              <div class="intro">
-                
-              </div>
-            </div>
-          </div>
-          <div class="block_description">
-          <p></p>
-          <hr color="red">
-          <p></p>
-        </div>
-      </div>
-      -->
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
@@ -322,7 +300,132 @@ get_header();
           <p>1954年生于上海。曾分别就读于复旦大学新闻系、历史系，获博士学位。其间先后赴日本东京大学、早稻田大学研修。中国传播学会首任会长、国家重点学科带头人。研究方向：传播学理论与实证研究、中外传播史</p>
         </div>
       </div>
-
+      <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/patrice.jpg">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>Patrice M. Buzzanell<br>帕萃斯巴泽里尔</a>
+              </div>
+              <div class="intro"></div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p>the former President of the International Communication, Association (ICA) and Professor in Brian Lamb School of Communication and the School of Engineering Education (courtesy) at Purdue University. Editor of three books and author of over 140 articles and chapters.</p>
+          <hr color="red">
+          <p>国际传播学会前任主席，现任美国普渡大学布莱恩兰博传播学院教授、工程学院名誉教授，也是三部书的编辑和超过140篇文章及章节的作者。她的主要研究领域是性别、职业规划、领导艺术、团队建设和传播的交际，尤其在科学、技术、工程和数学方面。她在教学和学生指导方面获得过很多荣誉，目前在14个编委会任职。</p>
+        </div>
+      </div>
+      <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/john.jpg">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>John V. Pavlik<br>约翰帕弗里克</a>
+              </div>
+              <div class="intro"></div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p>professor in the Department of Journalism and Media Studies at the School of Communication and Information, Rutgers, the State University of New Jersey. As well, he is faculty associate at the Columbia Institute for Tele-Information (CITI). </p>
+          <hr color="red">
+          <p>新泽西州州立大学罗格斯学院，新闻与媒体研究教授，研究放向是的传播和信息。同样是哥伦比亚大学远程信息研究所研究助理(花旗银行)。哥大媒体研究中心技术研究自由论坛的前副主任。他写了许多有关新技术对新闻业、媒体、社会有影响的出版物。他也撰写了十多个新闻传播学教育的计算机软件包。</p>
+        </div>
+      </div>
+      <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/shunya.jpg">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>Shunya Yoshimi<br>吉见俊哉</a>
+              </div>
+              <div class="intro"></div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p>Professor of Sociology, Cultural Studies and Media Studies; He wrote many books on cultural theory, urban culture, international exposition, media culture, information technology, emperor system, and Americanization in modern Japan and East Asia.  </p>
+          <hr color="red">
+          <p>社会学、文化研究和媒体研究方面的教授，他写了许多关于文化理论、城市文化、国际博览会、媒体文化、信息技术、皇帝制度和在现代日本和东亚美国化问题的书籍。他一直是当代日本媒体和文化研究领域的先锋学者。</p>
+        </div>
+      </div>
+      <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/chenyu_kuo.jpg">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>Kuo Chen Yu | 郭振羽</a>
+              </div>
+              <div class="intro"></div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p>professor, nanyang technological university in Singapore, dean of the school of humanities and social science. After graduated from Taiwan university journalism, and the university of Hawaii in the United States and the university of Minnesota has too, master and doctor degree in sociology in the United States at the university of Wisconsin assistant professor of sociology. </p>
+          <hr color="red">
+          <p>新加坡南洋理工大学人文与社会科学学院院长。毕业于台湾政治大学新闻系，后又在美国夏威夷大学和明尼苏达大学先后得社会学硕士和博士学位，曾在美国威斯康辛大学任社会学系助理教授。同时也是多个国际学刊的编辑委员/顾问。2000-2004年曾任国际媒体传播研究学会（IAMCR）副会长；现任亚洲媒体信息中心（AMIC）荣誉会长。</p>
+        </div>
+      </div>
+      <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/jan.png">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>Jan Servaes<br>简瑟瓦斯</a>
+              </div>
+              <div class="intro"></div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p>Chair Professor and Head , Department of Media and Communication, City University of Hong Kong. He is also UNESCO Chair in Communication for Sustainable Social Change at the University of Massachusetts at Amherst (USA); Honorary Guest Professor at the Huazhong University of Technology and Science (HUST), Wuhan, China; Researcher at the Brussels Center for Journalism Studies (BCJS), Belgium.</p>
+          <hr color="red">
+          <p>香港城市大学媒体与传播系的主任。他也是马萨诸塞大学阿默斯特（美国）联合国教科文组织传播与可持续社会变革主席，华中科技大学的名誉客座教授（中国武汉），布鲁塞尔新闻研究中心研究员（比利时），远程信息处理主编（爱思唯尔），和《发展和社会变化的传播》和《交流、全球化和文化认同》系列书籍的编辑。</p>
+        </div>
+      </div>
+      <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/kee.jpg">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>So York Kee | 苏钥机</a>
+              </div>
+              <div class="intro"></div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p>he dean of School of Journalism & Communication, The Chinese University of Hong Kong, an expert of Hong Kong Press Sociology. He owned his bachelor and master degree in the Chinese University of Hong Kong, and got his Ph.D. in Communication Philosophy at The University of Pennsylvania.</p>
+          <hr color="red">
+          <p>香港中文大学新闻与传播学院院长，香港新闻社会学专家，香港中文大学社会学学士、传播哲学硕士，美国宾夕法尼亚大学传播哲学博士。曾担任加拿大温哥华《明报》副总编辑，《世界日报》记者及电视广播有限公司市场研究员。</p>
+        </div>
+      </div>
+      <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/shyam.jpg">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>Shyam Sundar<br>什亚姆桑德尔</a>
+              </div>
+              <div class="intro"></div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p>the founder of the Media Effects Research Laboratory, a leading facility of its kind in the country. He teaches courses in the psychology of communication technology, media theory, and research methodology. He earned his doctoral and master’s degrees in communication. He also holds bachelor's degrees in communication and engineering. His industry experience includes more than eight years as a journalist. </p>
+          <hr color="red">
+          <p>媒体影响研究实验室的创始人，是国内该方面的主要领导学者。他教授有关通讯技术心理学、媒体理论和研究方法等方面的课程。他赢得了传播学的博士和硕士学位。他还拥有传播机械学的学士学位。他的行业经验包括超过8年的记者生涯。</p>
+        </div>
+      </div>
 
 	</div> <!-- end full width-->
 	<div class="clear"></div>
