@@ -133,6 +133,9 @@ if ( have_posts() ) {
             <div>
                 <img u="image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/02.jpg" />
             </div>
+            <div>
+                <img u="image" src="<?php echo get_stylesheet_directory_uri(); ?>/images/slider/04.jpg" />
+            </div>
         </div>
 
         <!-- bullet navigator container -->
@@ -186,6 +189,39 @@ if ( have_posts() ) {
 				?>
 			</div>
 			<div class="three-columns-3">
+                <div class="column-box">
+                    <div class="box-title-bar">
+                        <h3><a href="">第六届全球传播论坛|6th GCF </a></h3>
+                        
+                    </div>
+                    <hr color="red">
+                    <div class="box-content">
+        
+                    <div id="info-link">
+                        <a href="http://pan.baidu.com/s/1dDmwWmd">>>会议议程下载 | Schedule Download <<</a>
+                    </div>
+                    <div id="info-content">
+                        <p><font color="red">11/8/2014 Sat 周六</font></p>
+                        <p>08:00-10:00 与会嘉宾到场 Guest Arrving</p>
+                        <p>20:00-22:00 国际学术委员会议 Preconference</p>
+                        <p><font color="red">11/9/2014 Sun 周日</font></p>
+                        <p>08:30-09:00 开幕式 The Opening Ceremony</p>
+                        <p>09:00-10:30 主题演讲 Keynote Speeches</p>
+                        <p>10:30-11:00 茶歇 Coffee Break</p>
+                        <p>10:00-12:30 主题演讲 Keynote Speeches</p>
+                        <p>12:30-14:00 午餐 Lunch</p>
+                        <p>14:00-14:45 主题演讲 Keynote Speeches</p>
+                        <p>14:45-15:30 产学对话 Round Table Dialogue</p>
+                        <p>15:30-16:00 茶歇 Coffee Break</p>
+                        <p>16:00-17:30 产学对话 Round Table Dialogue</p>
+                        <p>17:30-18:00 闭幕式 发布中国网络文化课题报告</br>
+                                       The Closing Ceremony</br>
+                                       “Report on Chinese Cyber-Culture”</p>
+                        <p>18:00-18:30 摄影 交流 Photograph</p>
+                        <p>18:30-20:00 晚餐 Dinner</p>
+                        </br>
+                    </div>
+                </div>
 				<div class="column-box">
 					<div class="box-title-bar">
 						<h3><a href="">成果展示 | <font size="2">ACHIEVEMENT</font></a></h3>
@@ -208,29 +244,6 @@ if ( have_posts() ) {
 						wp_reset_query();
 					?>
 					</div>
-				</div>
-				<div class="column-box">
-					<div class="box-title-bar">
-						<h3><a href="">视频资料 | <font size="2">ARCHIVE</font></a></h3>
-						<a class="alignbottom alignright">更多</a>
-					</div>
-                    <hr color="red">
-                    <div class="box-content">
-                    <?php
-                        query_posts( array ('category_name' => 'video') );
-                        while (have_posts()) : the_post();
-                    ?>
-                    <div class="box-achievement-entry">
-                        <div class="box-achievement-thumbnail aligncenter">
-                            <?php the_post_thumbnail( ); ?>
-                        </div>
-                        <h6><?php the_title(); ?></h6>
-                    </div>
-                    <?php
-                        endwhile;
-                        wp_reset_query();
-                    ?>
-                    </div>
 				</div>
 			</div>
 		</div>
