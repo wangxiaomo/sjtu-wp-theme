@@ -200,6 +200,7 @@ if ( have_posts() ) {
                     <div id="info-link">
                         <a href="http://pan.baidu.com/s/1dDmwWmd">>>会议议程下载 | Schedule Download <<</a>
                     </div>
+
                     <div id="info-content">
                         <p><font color="red">11/8/2014 Sat 周六</font></p>
                         <p>08:00-10:00 与会嘉宾到场 Guest Arrving</p>
@@ -269,4 +270,5 @@ if ( have_posts() ) {
 	</div> <!-- full width -->
 <div class="clear"></div>
 </div> <!-- content container -->
+</div>
 <?php get_footer(); ?>
