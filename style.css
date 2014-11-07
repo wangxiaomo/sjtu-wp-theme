@@ -571,6 +571,15 @@ a.sf-with-ul {
 	margin-bottom: 20px;
 }
 
+#info-content {
+	line-height: 100%;
+}
+
+#info-link {
+	display: block;
+	text-align: center;
+}
+
 /*----- sidebar -----*/
 
 .sidebar-to-left #content {
