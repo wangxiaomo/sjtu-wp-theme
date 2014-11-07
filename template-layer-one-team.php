@@ -307,7 +307,7 @@ get_header();
             </div>
             <div class="selfie_text">
               <div class="name">
-                <a>Patrice M. Buzzanell | 帕萃斯巴泽里尔</a>
+                <a>Patrice M. Buzzanell<br>帕萃斯巴泽里尔</a>
               </div>
               <div class="intro"></div>
             </div>
@@ -325,7 +325,7 @@ get_header();
             </div>
             <div class="selfie_text">
               <div class="name">
-                <a>John V. Pavlik | 约翰帕弗里克</a>
+                <a>John V. Pavlik<br>约翰帕弗里克</a>
               </div>
               <div class="intro"></div>
             </div>
@@ -343,7 +343,7 @@ get_header();
             </div>
             <div class="selfie_text">
               <div class="name">
-                <a>Shunya Yoshimi | 吉见俊哉</a>
+                <a>Shunya Yoshimi<br>吉见俊哉</a>
               </div>
               <div class="intro"></div>
             </div>
@@ -379,7 +379,7 @@ get_header();
             </div>
             <div class="selfie_text">
               <div class="name">
-                <a>Jan Servaes | 简瑟瓦斯</a>
+                <a>Jan Servaes<br>简瑟瓦斯</a>
               </div>
               <div class="intro"></div>
             </div>
@@ -415,7 +415,7 @@ get_header();
             </div>
             <div class="selfie_text">
               <div class="name">
-                <a>Shyam Sundar | 什亚姆桑德尔</a>
+                <a>Shyam Sundar<br>什亚姆桑德尔</a>
               </div>
               <div class="intro"></div>
             </div>
