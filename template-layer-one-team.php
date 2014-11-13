@@ -7,6 +7,37 @@ get_header();
 
 ?>
 
+<style>
+.tab_foreigner {
+  display: none;
+}
+.tab {
+    width: 100%;
+    height: 33px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.subtab {
+    margin-top: -1px;
+    width: 120px;
+    height: 33px;
+    line-height: 33px;
+    float: left;
+    text-align: center;
+    color: #337ab7;
+    cursor: pointer;
+}
+.subtab:hover {
+    background-color: #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.subtab-on {
+    color: #555;
+    border: 1px solid #ddd;
+    border-bottom: 1px solid #fff;
+}
+</style>
 
 <div id="content-container" class="content-gradient">
 
@@ -16,6 +47,11 @@ get_header();
     >> 研究队伍 | <font color="grey">TEAM</font>
     <div class="hr"></div>
   </h2>
+  <div class="tab">
+    <div class="subtab subtab-on" data-tab="tab_local">国内教师</div>
+    <div class="subtab" data-tab="tab_foreigner">国外教师</div>
+  </div>
+      <div class="tab_local">
         <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
@@ -318,6 +354,8 @@ get_header();
           <p>复旦大学新闻系毕业。原香港《文汇报》助理总编辑、上海办事处主任。研究方向：新闻理论与实务、媒体发展战略、公共关系。</p>
         </div>
       </div>
+    </div>
+      <div class="tab_foreigner">
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
@@ -444,9 +482,27 @@ get_header();
           <p>媒体影响研究实验室的创始人，是国内该方面的主要领导学者。他教授有关通讯技术心理学、媒体理论和研究方法等方面的课程。他赢得了传播学的博士和硕士学位。他还拥有传播机械学的学士学位。他的行业经验包括超过8年的记者生涯。</p>
         </div>
       </div>
+    </div>
 
 	</div> <!-- end full width-->
 	<div class="clear"></div>
 </div> <!-- end #content-container-->
+<script src="http://libs.useso.com/js/jquery/2.1.1/jquery.min.js"></script>
+<script>
+$(function(){
+  $('.subtab').on('click', function(e){
+    if($(this).hasClass('subtab-on')){
+      e.preventDefault();
+      return false;
+    }
+
+    $('.subtab').removeClass('subtab-on');
+    $(this).addClass('subtab-on');
+    var target = $(this).data('tab');
+    $('.tab_local, .tab_foreigner').hide();
+    $('.' + target).show();
+  });
+});
+</script>
 
 <?php get_footer(); ?>
