@@ -16,7 +16,65 @@ get_header();
     >> 研究队伍 | <font color="grey">TEAM</font>
     <div class="hr"></div>
   </h2>
+        <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/guoliang_zhang.png">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>Guoliang Zhang | 张国良</a>
+              </div>
+              <div class="intro">
+                新闻与传播系教授，博士生导师，院长
+              </div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p>PhD supervisor. Dean of School of Media & Design. PhD in History, Fudan University and Waseda University (Joint Doctoral Program). Research interests: communication theories and empirical research, Chinese and foreign communication history.</p>
+          <hr color="red">
+          <p>1954年生于上海。曾分别就读于复旦大学新闻系、历史系，获博士学位。其间先后赴日本东京大学、早稻田大学研修。中国传播学会首任会长、国家重点学科带头人。研究方向：传播学理论与实证研究、中外传播史</p>
+          </div>
+        </div>
+        <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/wanghaoqing.png">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>Haoqing Wang | 王昊青</a>
+              </div>
+              <div class="intro">
+              </div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p></p>
+          <hr color="red">
+          <p></p>
+          </div>
+        </div>
+        <div class="about_us_row">
+          <div class="about_us_block">
+            <div class="selfie">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/guosong_shao.jpg">
+            </div>
+            <div class="selfie_text">
+              <div class="name">
+                <a>Guosong Shao | 邵国松</a>
+              </div>
+              <div class="intro">
 
+              </div>
+            </div>
+          </div>
+          <div class="block_description">
+          <p>PhD Supervisor. PhD in mass communication, the University of Alabama. Focus on laws and regulations of communication, operation and management of media, international communication, Internet communication.</p>
+          <hr color="red">
+          <p>美国阿拉巴马大学大众传播学博士。研究领域包括传播法规与政策、传媒经营与管理、国际传播、网络传播。致力于将中国问题放在国际化的背景下进行考察，为解决本土各种理论和实践问题提供可供借鉴、可以信赖的经验。同时，又试图以中国问题来检验国际上经典及新兴的社会科学理论，为国际学术界的发展做出独特贡献。代表性成果为英文专著Internet Law in China（中国互联网法），2012年由英国Chandos Publishing出版社出版。此外还在Communication Research、Internet Research、International Journal on Media Management、《国际新闻界》、《南京社会科学》等知名学术期刊发表中英文论文若干。目前的研究集中在互联网的法律规制。</p>
+          </div>
+        </div>
         <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
@@ -163,26 +221,6 @@ get_header();
       <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/guosong_shao.jpg">
-            </div>
-            <div class="selfie_text">
-              <div class="name">
-                <a>Guosong Shao | 邵国松</a>
-              </div>
-              <div class="intro">
-
-              </div>
-            </div>
-          </div>
-          <div class="block_description">
-          <p>PhD Supervisor. PhD in mass communication, the University of Alabama. Focus on laws and regulations of communication, operation and management of media, international communication, Internet communication.</p>
-          <hr color="red">
-          <p>美国阿拉巴马大学大众传播学博士。研究领域包括传播法规与政策、传媒经营与管理、国际传播、网络传播。致力于将中国问题放在国际化的背景下进行考察，为解决本土各种理论和实践问题提供可供借鉴、可以信赖的经验。同时，又试图以中国问题来检验国际上经典及新兴的社会科学理论，为国际学术界的发展做出独特贡献。代表性成果为英文专著Internet Law in China（中国互联网法），2012年由英国Chandos Publishing出版社出版。此外还在Communication Research、Internet Research、International Journal on Media Management、《国际新闻界》、《南京社会科学》等知名学术期刊发表中英文论文若干。目前的研究集中在互联网的法律规制。</p>
-        </div>
-      </div>
-      <div class="about_us_row">
-          <div class="about_us_block">
-            <div class="selfie">
               <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/shilian_shan.jpg">
             </div>
             <div class="selfie_text">
@@ -278,26 +316,6 @@ get_header();
           <p>Director of the Department of Journalism and Communication Studies. Director of Spokesman Training & Research Centre of SJTU. Executive vice-director of SJTU-Sina institute of Internet Research. Research interests: journalism and media practices, journalism and China reform and opening up, media and society in the Chinese mainland, Taiwan, Hong Kong and Macao, public relation.</p>
           <hr color="red">
           <p>复旦大学新闻系毕业。原香港《文汇报》助理总编辑、上海办事处主任。研究方向：新闻理论与实务、媒体发展战略、公共关系。</p>
-        </div>
-      </div>
-      <div class="about_us_row">
-          <div class="about_us_block">
-            <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/guoliang_zhang.png">
-            </div>
-            <div class="selfie_text">
-              <div class="name">
-                <a>Guoliang Zhang | 张国良</a>
-              </div>
-              <div class="intro">
-                新闻与传播系教授，博士生导师，院长
-              </div>
-            </div>
-          </div>
-          <div class="block_description">
-          <p>PhD supervisor. Dean of School of Media & Design. PhD in History, Fudan University and Waseda University (Joint Doctoral Program). Research interests: communication theories and empirical research, Chinese and foreign communication history.</p>
-          <hr color="red">
-          <p>1954年生于上海。曾分别就读于复旦大学新闻系、历史系，获博士学位。其间先后赴日本东京大学、早稻田大学研修。中国传播学会首任会长、国家重点学科带头人。研究方向：传播学理论与实证研究、中外传播史</p>
         </div>
       </div>
       <div class="about_us_row">
