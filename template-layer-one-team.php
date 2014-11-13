@@ -39,7 +39,7 @@ get_header();
         <div class="about_us_row">
           <div class="about_us_block">
             <div class="selfie">
-              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/wanghaoqing.png">
+              <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/team/wanghaoqing.jpg">
             </div>
             <div class="selfie_text">
               <div class="name">
